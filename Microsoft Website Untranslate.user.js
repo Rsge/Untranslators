@@ -4,7 +4,7 @@
 // @description    Automatically loads the original language site of a Microsoft subdomain if a translated one is visited.
 // @description:de Leitet automatisch zur originalen US-englischen Microsoft Subdomäne weiter, wenn eine übersetzte Version geöffnet wird.
 
-// @version        1.0.0
+// @version        1.0.1
 // @author         Rsge
 // @copyright      2026+, Jan G. (Rsge)
 // @license        Mozilla Public License 2.0
@@ -29,6 +29,6 @@
   let regex = /([^.]+\.[^.]+\.[^./]+\/)([^/]+)(\/.*)/;
   let replace = "$1" + origLang + "$3";
   if (href.match(regex)[2].toLowerCase() != origLang) {
-    window.open(href.replace(regex, replace), "_top");
+    window.location.replace(href.replace(regex, replace));
   }
 })();
