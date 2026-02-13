@@ -4,17 +4,17 @@
 // @description    Automatically loads the original language site of a Microsoft subdomain if a translated one is visited.
 // @description:de Leitet automatisch zur originalen US-englischen Microsoft Subdomäne weiter, wenn eine übersetzte Version geöffnet wird.
 
-// @version        1.0.1
+// @version        1.0.2
 // @author         Rsge
 // @copyright      2026+, Jan G. (Rsge)
 // @license        Mozilla Public License 2.0
 // @icon           https://favicon.pub/microsoft.com
 
-// @namespace      https://github.com/Rsge
-// @homepageURL    https://github.com/Rsge/
-// @supportURL     https://github.com/Rsge/#/issues
-// @downloadURL    https://update.greasyfork.org/scripts/
-// @updateURL      https://update.greasyfork.org/scripts/
+// @namespace      https://github.com/Rsge/Untranslators
+// @homepageURL    https://github.com/Rsge/Untranslators
+// @supportURL     https://github.com/Rsge/Untranslators/issues
+// @downloadURL    https://update.greasyfork.org/scripts/566189/Microsoft%20Website%20Untranslate.user.js
+// @updateURL      https://update.greasyfork.org/scripts/566189/Microsoft%20Website%20Untranslate.meta.js
 
 // @match          https://*.microsoft.com/*
 
